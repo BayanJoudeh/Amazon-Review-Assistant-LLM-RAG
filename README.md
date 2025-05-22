@@ -58,7 +58,8 @@ streamlit run app.py
 Open your browser and navigate to: http://localhost:8501
 
 ## Screenshot
-![streamlit](https://github.com/user-attachments/assets/9247dec0-1d8b-43d5-9ebd-dbf7480bf28b)
+![stramlitt](https://github.com/user-attachments/assets/990e1f5b-0f15-4ab6-a09c-c3bd20d7ec10)
+
 
 
 *Screenshot of the Amazon Review Assistant frontend interface.*

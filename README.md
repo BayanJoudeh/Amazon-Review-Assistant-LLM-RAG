@@ -32,8 +32,8 @@ cd amazon-review-assistant
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```bash 
 
+```
 ### Data Preparation
 
 Download the Amazon reviews dataset and place it in the project root:  
@@ -48,20 +48,14 @@ Download required Ollama models:
 ```bash
 ollama pull mxbai-embed-large
 ollama pull llama3:instruct
+
+```
 Start the FastAPI backend server:
-
-bash
-Copy
-Edit
 uvicorn main:app --host 0.0.0.0 --port 8002
-In a new terminal, start the Streamlit frontend:
 
-bash
-Copy
-Edit
+In a new terminal, start the Streamlit frontend:
 streamlit run app.py
 Open your browser and navigate to: http://localhost:8501
-
 
 ## Screenshot
 ![streamlit](https://github.com/user-attachments/assets/9247dec0-1d8b-43d5-9ebd-dbf7480bf28b)

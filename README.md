@@ -18,6 +18,13 @@ The system includes three main parts:
 - Privacy-focused: no data or questions stored  
 - Clean, responsive UI  
 
+## Live Demo
+
+You can try the application live here:
+[https://amazon-review-assistant-llm-rag-nyab7vrpgc7zxmedgbsahy.streamlit.app/](https://amazon-review-assistant-llm-rag-nyab7vrpgc7zxmedgbsahy.streamlit.app/)
+
+*(Note: The performance and availability of the live demo depend on the hosting resources.)*
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -51,11 +58,15 @@ ollama pull llama3:instruct
 
 ```
 Start the FastAPI backend server:
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8002
+```
 
 In a new terminal, start the Streamlit frontend:
+```bash
 streamlit run app.py
-Open your browser and navigate to: http://localhost:8501
+```
+Open your browser and navigate to: `http://localhost:8501`
 
 ## Screenshot
 ![stramlitt](https://github.com/user-attachments/assets/990e1f5b-0f15-4ab6-a09c-c3bd20d7ec10)
@@ -63,3 +74,4 @@ Open your browser and navigate to: http://localhost:8501
 
 
 *Screenshot of the Amazon Review Assistant frontend interface.*
+

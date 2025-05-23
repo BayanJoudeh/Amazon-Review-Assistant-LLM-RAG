@@ -75,7 +75,8 @@ Open your browser and navigate to: `http://localhost:8501`
 
 **Example Interaction:**
 
-![streamlit2](https://github.com/user-attachments/assets/e2caff60-71d5-4c63-a994-ba2b7ffaff44)
+![streamlit2](https://github.com/user-attachments/assets/33f52bad-617e-4805-8612-62ec51bed6a4)
+
 
 
 *Screenshots showing the Amazon Review Assistant frontend interface and an example of the AI providing an answer.*

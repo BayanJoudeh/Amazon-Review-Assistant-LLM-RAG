@@ -74,6 +74,7 @@ Open your browser and navigate to: `http://localhost:8501`
 ![stramlitt](https://github.com/user-attachments/assets/990e1f5b-0f15-4ab6-a09c-c3bd20d7ec10)
 
 **Example Interaction:**
+
 ![streamlit2](https://github.com/user-attachments/assets/e2caff60-71d5-4c63-a994-ba2b7ffaff44)
 
 
